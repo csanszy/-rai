@@ -1,0 +1,84 @@
+/*
+Theme Name: csanadTheme
+Author: csanad
+*/
+.my-logo,
+footer {
+    width: 100%;
+    padding-left: 2%;
+    margin-bottom: 8px;
+    background-color: #78ff86;
+    border: 1px solid #78ff86;
+}
+
+body > header > h1 > a {
+    color: #ffffff;
+    font-weight: 450;
+}
+ 
+
+footer {
+    margin-top: 5px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.content-area {
+    display: inline-block;
+}
+
+.content-thin {
+    width: 70%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-area,
+.primary-sidebar {
+    display: inline-block;
+}
+
+.primary-sidebar {
+    width: 25%;
+    padding: 1%;
+    vertical-align: top;
+    background-color: #ececec;
+}
+
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.article-full {
+    width: 99%;
+    padding: 1%;
+}
+
+.article-loop,
+.article-full {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 400px) {
+    .content-area,
+    .primary-sidebar {
+        width: 100%;
+    }
+}
